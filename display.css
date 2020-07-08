@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: roboto, helvetica;
+    font-style: normal;
+}
+
+body {
+  background: url(https://hitmarker.net/assets/img/uci/full-stack-web-development.jpg);
+  position: absolute;
+  border-radius: 30%;
+}
+
+.curriculo {
+  margin: 5% 10%;
+}
+
+.asideposition {
+  display: flex;
+  text-align: justify;
+}
+
+main {
+  width: 80%;
+  background: whitesmoke;
+  padding: 5%;
+}
+
+aside {
+  background: #822e21;
+  padding: 5%;
+  color: whitesmoke;
+}
+
+.espacobarra {
+  position: relative;
+  top: 80px;
+}
+
+.redesocial{
+  display: flex;
+}
+
+.itemredesocial {
+  text-align: center;
+}
+
+header {
+  background: whitesmoke;
+  width: 90%;
+  padding: 5%;
+  height: 15%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.foto-head {
+  position: relative;
+  width: 160px;
+  left: 5%px;
+  top: 5%;
+  border-radius: 50%;
+  margin: 2%;
+}
+
+.especialidadenome {
+  position: relative;
+  text-align: center;
+}
+
+.nome {
+  color: #822e21;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.perfil, 
+.experiencias, 
+.formacao, 
+.projetos,
+.habilidades, 
+.contatos, 
+.redesocial, 
+.conhecimentos, 
+footer {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.experienciaslista, 
+.conhecimentos, 
+#contatos, 
+.redesocial {
+  list-style: none;
+}
+
+.logoredesocial {
+  width: 40px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+footer {
+  margin: unset;
+  height: 80px;
+  background: #ffcc73;
+  text-align: center;
+  font-size: 26px;
+}
+
+.content {
+  padding: 5px;
+}
+
+.sitacao {
+  position: relative;
+  top:30%;
+}
